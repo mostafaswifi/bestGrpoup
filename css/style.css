@@ -1,0 +1,67 @@
+body * {
+  box-sizing : border-box;
+  margin     : 0;
+  padding    : 0;
+}
+
+.parent {
+  width  : 50%;
+  margin : 3rem auto;
+}
+
+.d-flex {
+  display         : flex;
+  align-items     : center;
+  flex-direction  : row;
+  justify-content : space-between;
+}
+
+.capitalize {
+  text-transform : uppercase;
+}
+
+.fs-2 {
+  font-size : 2rem;
+}
+
+.bg-gray {
+  background-color : #eee;
+}
+
+.p-2 {
+  padding : 1rem 2rem;
+}
+
+.m-2 {
+  margin : 1rem 2rem;
+}
+
+.clicker {
+  cursor : pointer;
+}
+
+.msg {
+  height: 0;
+ 
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.show{
+  height: 9rem;
+  padding: 1rem 2rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+
+.child{
+  height: 100%;
+  
+}
